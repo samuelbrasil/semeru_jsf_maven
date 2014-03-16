@@ -34,7 +34,7 @@ public class PhaseListenerSemeru implements PhaseListener{
     public void afterPhase(PhaseEvent fase) {
         System.out.println("Depois da fase: " + getPhaseId().toString());
         if(fase.getPhaseId().equals(PhaseId.RENDER_RESPONSE)){
-            Session session = FacesContextUtil.getRequestSesssion();
+            Session session = FacesContextUtil.getRequestSession();
             try{
                 session.getTransaction().commit();
             }catch(Exception e){
