@@ -28,7 +28,7 @@
         
         <!-- HABILITA A ATUALIZAÇÃO AUTOMÁTICA DA ESTRUTURA DE TABELAS PELO HIBERNATE -->
         
-        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
         
         <!-- CONFIGURAÇÕES DO POOL DE CONEXÕES-->
         
