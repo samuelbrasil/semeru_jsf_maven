@@ -15,12 +15,12 @@
     </session-config>
 
 
-    <!--Configuração do theme do PrimeFaces -->
+    <!--Configuração do theme do PrimeFaces 
     <dependency>
         <grupoId>org.primefaces.themes</grupoId>
         <artifactId>south-street</artifactId>
         <version>1.0.4</version>
-    </dependency>
+    </dependency>-->
     
     <context-param>
         <param-name>primefaces.THEME</param-name>
