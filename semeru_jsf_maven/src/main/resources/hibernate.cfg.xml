@@ -19,7 +19,8 @@
         <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/semeru</property>
         <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.connection.password">S@muel0</property>
-        <property name="hibernate.dialect">net.sf.hibernate.dialect.PostgreSQLDialect</property>
+        <!--<property name="hibernate.dialect">net.sf.hibernate.dialect.PostgreSQLDialect</property>-->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         
         <!-- HABILITA A EXIBIÇÃO DO SQL GERADO PELO HIBERNATE E FORMATA-O -->
         
