@@ -29,7 +29,7 @@
         
         <!-- HABILITA A ATUALIZAÇÃO AUTOMÁTICA DA ESTRUTURA DE TABELAS PELO HIBERNATE -->
         
-        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
         
         <!-- CONFIGURAÇÕES DO POOL DE CONEXÕES-->
         
@@ -40,12 +40,12 @@
         <property name="c3p0.idle_test_period">300</property>
         
         <!-- LISTA DE ENTIDADES -->
-        <mapping class="br.com.semeru.model.entities.Cidade"/>        
-        <mapping class="br.com.semeru.model.entities.Endereco"/>      
-        <mapping class="br.com.semeru.model.entities.Estado"/>      
-        <mapping class="br.com.semeru.model.entities.Pessoa"/>               
-        <mapping class="br.com.semeru.model.entities.Sexo"/>
-        <mapping class="br.com.semeru.model.entities.TipoEndereco"/>
-        <mapping class="br.com.semeru.model.entities.TipoLogradouro"/>
+        <mapping class="br.com.semeru.entities.Cidade"/>        
+        <mapping class="br.com.semeru.entities.Endereco"/>      
+        <mapping class="br.com.semeru.entities.Estado"/>      
+        <mapping class="br.com.semeru.entities.Pessoa"/>               
+        <mapping class="br.com.semeru.entities.Sexo"/>
+        <mapping class="br.com.semeru.entities.TipoEndereco"/>
+        <mapping class="br.com.semeru.entities.TipoLogradouro"/>
     </session-factory>
 </hibernate-configuration>
